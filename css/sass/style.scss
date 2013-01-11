@@ -1,0 +1,27 @@
+/* style.scss */
+
+body {
+	height: 100%;
+}
+
+header, footer, #container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background: #ddd;
+  border: 1px solid red;
+}
+
+$sectionPadding: 1%;
+
+header {
+	padding:$sectionPadding;
+}
+
+footer {
+	padding:$sectionPadding;
+}
+
+#container {
+	padding:$sectionPadding;
+}

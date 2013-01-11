@@ -1,0 +1,29 @@
+/* style.scss */
+/* line 3, sass/style.scss */
+body {
+  height: 100%;
+}
+
+/* line 7, sass/style.scss */
+header, footer, #container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background: #ddd;
+  border: 1px solid red;
+}
+
+/* line 17, sass/style.scss */
+header {
+  padding: 1%;
+}
+
+/* line 21, sass/style.scss */
+footer {
+  padding: 1%;
+}
+
+/* line 25, sass/style.scss */
+#container {
+  padding: 1%;
+}
