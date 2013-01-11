@@ -1,29 +1,48 @@
 /* style.scss */
-/* line 3, sass/style.scss */
+/* line 27, sass/style.scss */
 body {
   height: 100%;
+  font-size: 62.5%;
+  /* Set base font to 10px */
 }
 
-/* line 7, sass/style.scss */
+/* line 32, sass/style.scss */
 header, footer, #container {
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  background: #ddd;
-  border: 1px solid red;
 }
 
-/* line 17, sass/style.scss */
+/* line 36, sass/style.scss */
 header {
   padding: 1%;
 }
 
-/* line 21, sass/style.scss */
+/* line 40, sass/style.scss */
 footer {
   padding: 1%;
 }
 
-/* line 25, sass/style.scss */
+/* line 44, sass/style.scss */
 #container {
   padding: 1%;
+}
+
+/* line 48, sass/style.scss */
+h1 {
+  font-family: 'Crushed', cursive;
+  color: #d1e751;
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+
+/* line 52, sass/style.scss */
+a {
+  color: #26ade4;
+  text-decoration: none;
+}
+
+/* line 57, sass/style.scss */
+a:hover {
+  color: #4dbce9;
 }

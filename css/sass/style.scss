@@ -1,18 +1,37 @@
 /* style.scss */
+$sectionPadding: 1%;
 
-body {
-	height: 100%;
-}
+$green:#D1E751;
+$lightblue:#4DBCE9;
+$darkblue:#26ADE4;
 
-header, footer, #container {
+@mixin containers {
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  background: #ddd;
-  border: 1px solid red;
 }
 
-$sectionPadding: 1%;
+@mixin headfont {
+	font-family: 'Crushed', cursive;
+	color:$green;
+	text-transform: uppercase;
+	font-size: 1.8em;
+}
+
+@mixin bodyfont {
+	font-family: 'Droid Sans', sans-serif;
+	color:#111111;
+	font-size: 1.4em;
+}
+
+body {
+	height: 100%;
+	font-size: 62.5%; /* Set base font to 10px */
+}
+
+header, footer, #container {
+	@include containers;
+}
 
 header {
 	padding:$sectionPadding;
@@ -24,4 +43,17 @@ footer {
 
 #container {
 	padding:$sectionPadding;
+}
+
+h1 {
+	@include headfont;
+}
+
+a {
+	color: $darkblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: $lightblue;
 }
